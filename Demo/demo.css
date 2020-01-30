@@ -1,0 +1,39 @@
+body {
+    color: #f0f0f0;
+    background-color: #121212;
+}
+
+* {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.navigator {
+    background-color: #778844;
+    padding: 0.5%;
+    height: 2em;
+}
+
+.navigator li {
+    padding: 0.1% 4% 0.5% 4%;
+    background-color: #55a210;
+    float: left;
+    list-style-type: none;
+}
+
+.navigator li:hover {
+    background-color: #990033;
+}
+
+.navigator li a:link, .navigator li a:visited {
+    color: #feffe4;
+    text-decoration: none;
+    display: block;
+}
+
+.navigator li a:hover, .navigator li a:active {
+    color: #ffd7a9;
+    text-decoration: none;
+    display: block;
+}
