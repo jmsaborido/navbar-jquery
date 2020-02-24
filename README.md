@@ -1,4 +1,4 @@
-# JQuery Menu Plugin
+# JQuery Navbar Plugin
 
 ## For Developers
 
@@ -13,11 +13,11 @@
 * JQuery 3.4.1 at least (Not tested in other versions)
 * At least 1 CSS file (Highly recommended, but not necessary)
 
-Before you start using the menu its required use these three lines on your HTML file:
+Before you start using the navbar its required use these three lines on your HTML file:
 ```HTML
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="(The source of your JS file)"></script>
-    <script src="jQuery.Menu.js"></script>
+    <script src="jquery.navbar.js"></script>
 ```
 Your JavaScript file should look at least like this:
 
@@ -31,7 +31,7 @@ And With that you are ready to start coding.
 
 #### Things you should know
 
-When you create a new menu it will be added a list in the existing div, header, main, aside...
+When you create a new navbar it will be added a list in the existing div, header, main, aside...
 The ID of the list will be list and the number of list you have created.
 Because of that, we do NOT recommend setting the ID of any element with the name "List" joined with a number, submenu or setting the class of an element with navigator.
 
@@ -41,7 +41,7 @@ All elements created by the plugin will have a default ID.
 * All the options added to a section will have an id with the name you give it and the index of the option and the same ID as the section that the option is son of.
 
 
-So after all that things we recommend not using in the menu numbers because all the inside work is made with numbers.
+So after all that things we recommend not using in the navbar numbers because all the inside work is made with numbers.
 
 It's also not recommended use classes like navigator, section or submenu because it's already used by the plugin
 
@@ -52,9 +52,9 @@ After completing all the requirements you can start the coding calling the funct
 ```JS
     $("insert your container here").menu("init");
 ```
-In the first field you should put the container that you want to put the menu
+In the first field you should put the container that you want to put the navbar
 
-If it's the first menu that you have created it will be created the first list.
+If it's the first navbar that you have created it will be created the first list.
 
 So when you want to add a section to the Nth list you use 
 
